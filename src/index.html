@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Ayllus Code</title>
+    </head>
+    <body>  
+    <main class="principal">
+        <div class="contenedor">
+            <img class="logo" src="img/logo.jpg" alt="logo-ayllus">
+        </div>
+        <div class="principal-menu">
+            <div class="menu">
+                <nav class="menu-nav">
+                    <input type="submit" value="Inicio" class="boton">
+                    <input type="submit" value="Lista" class="boton">
+                    <input type="submit" value="Resultado" class="boton">
+                    <input type="submit" value="Estadistica" class="boton">                   
+                </nav>
+            </div>
+        </div>
+        <div class="principal contenido">
+            <div class="categories">
+                <nav class="categories-nav">
+                    <li><input type="submit" value="Cocina" class="boton"></li>
+                    <li><input type="submit" value="Limpieza" class="boton"></li>
+                    <li><input type="submit" value="Lavanderia" class="boton"></li>
+                    <li><input type="submit" value="Hijos" class="boton"></li>
+                    <li><input type="submit" value="Compras" class="boton"></li>
+                    <li><input type="submit" value="Pago" class="boton"></li>               
+                </nav>
+            </div>
+            <div class="wrap">
+                <form class="formulario" action="">
+                    <input type="text" id="chores-input" placeholder="Agrega tu tarea">
+                    <input type="button" class="boton1" id="btn-agregar" value="Agregar Tarea">
+                    <div class="tareas">
+                        <div class="wrap">
+                            <ul class="lista" id="lista">
+                                <li><a href="#">1 Lavar la ropa</a></li>
+                                <li><a href="#">2 Secar la ropa</a></li>
+                                <li><a href="#">3 Planchar la ropa</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+        <footer class="principal"></footer>
+        <script src="js/data.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    </html>
